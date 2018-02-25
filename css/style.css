@@ -1457,7 +1457,7 @@ a .cont-block:hover{
 }
 /*/Линия под менюшкой*/
 
-.glyphicon.glyphicon-earphone{
+i.glyphicon.glyphicon-earphone{
     display: none;
 }
 .naw-wip span:before,
@@ -1549,7 +1549,7 @@ a .cont-block:hover{
     .slideUp.arrow{
         display: none;
     }
-    .glyphicon.glyphicon-earphone{
+    i.glyphicon.glyphicon-earphone{
         display: block;
         position: inherit;
         color: #ffffff;
