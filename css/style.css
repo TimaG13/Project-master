@@ -61,18 +61,19 @@ span{
 .modal-dialog{
     width: 1100px;
 }
+
+.modal-header{
+    position: relative;
+    right: 0;
+    top: -100px;
+    border: none;
+}
 .close{
     width: 50px;
     height: 50px;
     position: relative;
     left: 40px;
     top: -100px;
-}
-.modal-header{
-    position: relative;
-    right: 0;
-    top: -100px;
-    border: none;
 }
 .close:before,
 .close:after{
@@ -1786,6 +1787,7 @@ i.glyphicon.glyphicon-earphone{
 @media screen and (max-width: 555px){
     .news-img{
         margin: -185px 0 -40px 0;
+        width: 100%;
     }
     .news-img img{
         width: 100%;
